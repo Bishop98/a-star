@@ -10,3 +10,53 @@
   overflow:hidden;
   /* flex-wrap: wrap; */
 }
+
+.matrix-container input[type='radio'] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.matrix-container label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #444;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.matrix-container label > input[type='radio']:checked {
+  background-color: #bfb;
+  border-color: #4c4;
+}
+
+button {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #444;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+.node-matrix {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.media-links > a{
+  margin-right: 10px;
+}
